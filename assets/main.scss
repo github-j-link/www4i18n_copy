@@ -292,9 +292,23 @@
   .s-cover .content-section .catch p br {
     display: none; }
 
+  .s-lead .content-section .columns {
+    background-color: #FFF !important; }
+
   .m-hamburger_content {
-    z-index: -1 !important;
-  }
+    z-index: -1 !important; }
+
+  html.is-active_hamburger .m-hamburger_content {
+    z-index: 1 !important; }
+
+  .is-active_hamburger #footer {
+    transition: all 0.4s ease;
+    transform: translate(240px, 0);
+    overflow: hidden; }
+
+  #footer {
+    transition: all 0.4s ease; }
+
   .s-lead {
     margin-bottom: -126.9px !important;
   }
