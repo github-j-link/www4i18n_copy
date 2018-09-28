@@ -389,6 +389,10 @@
 
 
 /*----- CAMPUS -----*/
+#content .content-header h1 {
+  line-height: 1.5em !important;
+}
+
 .content-section .row .columns ul li a[class="pdf"]:after {
   content: url("./images/icon_pdf.gif");
   position: relative;
