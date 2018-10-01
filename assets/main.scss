@@ -349,6 +349,20 @@
 #aside .list-menu li a:hover {
   text-decoration: underline !important; }
 
+#aside .career .list-menu li:nth-child(2n) {
+  display: none !important; }
+
+#aside .introduction li.campus,
+#aside .teacher li.campus,
+#aside .studyabroad li.campus,
+#aside .career li.campus,
+#aside .exam li.campus,
+#aside .portal4fs li.campus,
+#aside .general li.campus {
+  display: none !important;
+}
+
+
 /*----- CONTENTS(第2階層のみ) -----*/
 /*----- LIST-LINKS -----*/
 #main .content-section .row .columns ul.list-links li a:hover {
